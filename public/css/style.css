@@ -321,7 +321,7 @@ body {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: left; }
 
 main {
   margin-left: 50px; }
