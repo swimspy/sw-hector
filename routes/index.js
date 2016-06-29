@@ -7,6 +7,12 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/tlp', function(req, res) {
+  res.render('tlp', { title: 'Test Landing Page' });
+  console.log('test landing page');
+});
+
+
 router.get('/about', function(req, res) {
   res.render('about', { title: 'About' });
   console.log('about page is loaded');
