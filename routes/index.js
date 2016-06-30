@@ -26,8 +26,8 @@ router.get('/your-name', function(req, res) {
   res.render('your-name', { title: 'What Is Your Name?' });
 });
 
-router.get('/create-your-home-page', function(req, res) {
-  res.render('create-your-home-page', { title: 'Create Your Own Home Page' });
+router.get('/frontpage', function(req, res) {
+  res.render('frontpage', { title: 'Version of the frontpage' });
 });
 
 router.get('/confirm-details', function(req, res) {
